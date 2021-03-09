@@ -219,6 +219,7 @@ open class TKFormTextField: UITextField {
     label.numberOfLines = 0
     label.textColor = self.errorColor
     label.accessibilityIdentifier = "error-label"
+    label.textAlignment = self.textAlignment
     self.addSubview(label)
     self.errorLabel = label
   }
